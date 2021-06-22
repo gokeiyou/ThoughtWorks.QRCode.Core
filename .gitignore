@@ -349,3 +349,4 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 /src/ThoughtWorks.QRCode.Core/nuget.exe
+/src/ThoughtWorks.QRCode.Core/ThoughtWorks.QRCodeCore.1.0.0.nuspec

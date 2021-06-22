@@ -4,11 +4,20 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <Description>所有源码来自ThoughtWorks.QRCode类库。只是将目标平台从.NET 2.0 修改成.NET Standard 2.1。如有版权问题，请@haoersheng及时联系我本人（wjy307@qq.com）。</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Authors>Jimmy Wu</Authors>
     <PackageId>ThoughtWorks.QRCodeCore</PackageId>
     <RootNamespace>ThoughtWorks.QRCode</RootNamespace>
     <AssemblyName>ThoughtWorks.QRCodeCore</AssemblyName>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/gokeiyou/ThoughtWorks.QRCode.Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/gokeiyou/ThoughtWorks.QRCode.Core</RepositoryUrl>
+    <PackageTags>QRCode</PackageTags>
+    <Copyright>wjy307@qq.com</Copyright>
+    <PackageIcon>ThoughtWorks.QRCodeCore.png</PackageIcon>
+    <PackageIconUrl />
+    <ApplicationIcon>ThoughtWorks.QRCodeCore.ico</ApplicationIcon>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,6 +37,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ThoughtWorks.QRCodeCore.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
